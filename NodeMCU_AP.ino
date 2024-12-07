@@ -23,6 +23,6 @@ void setup() {
 void loop() 
 {
   unsigned int device_no= WiFi.softAPgetStationNum();                                 //Get no. of station connected to the access point
-  Serial.print("Total %d devices are connected to the Access Point",device_no);       
+  Serial.printf("Total %d devices are connected to the Access Point",device_no);       
   delay(2000);
 }
